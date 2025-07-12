@@ -1,0 +1,58 @@
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="static/28527531.jpg")
+                | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#introsection 
+       div Welcome to piyush's dance acdemy
+       div.small eat sleep dance repeat
+
+    section#missionsection 
+       h2 our mission 
+       div.card 
+           h3 Dance perfection
+           div.card-box 
+              div.card-img 
+              img(src="") 
+
+              div.card-content 
+                 p This is the best dance academy of the universe
+       div.card 
+           h3 Dance the way you like
+           div.card-box 
+              div.card-img 
+              img(src="") 
+
+              div.card-content 
+                 p This is the best dance academy of the universe
+       div.card 
+           h3 Expert teaching
+           div.card-box 
+              div.card-img 
+              img(src="") 
+
+              div.card-content 
+                 p This is the best dance academy of the universe
+
+    section#sponsorsection 
+       h3 our sponsors 
+       div#sponsors 
+           img(src="static/logo1.png",alt="sponsor image",class="spImage") 
+           img(src="static/logo2.png",alt="sponsor image",class="spImage")
+           img(src="static/logo3.png",alt="sponsor image",class="spImage")
+           img(src="static/logo4.png",alt="sponsor image",class="spImage")
+
+    footer#footer
+        | Copyright © 2019 HarryAcademy.com | All Rights Reserved
+    script
+      include ../static/index.js
